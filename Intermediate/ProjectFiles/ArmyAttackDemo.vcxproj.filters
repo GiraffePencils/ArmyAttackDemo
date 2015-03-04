@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ArmyAttackDemo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2667A822-2D64-4890-998A-9B8D14DA6829}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ArmyAttackDemo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ArmyAttackDemoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CCF46FC5-72EA-47D8-A97E-C4C649575CBF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ArmyAttackDemo">
+			<UniqueIdentifier>{5DF39DCA-2E53-4913-8823-4E1235F3EAEE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemo.Build.cs">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemo.cpp">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemo.h">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemoCharacter.cpp">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemoCharacter.h">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemoGameMode.cpp">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemoGameMode.h">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemoPlayerController.cpp">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ArmyAttackDemo\ArmyAttackDemoPlayerController.h">
+			<Filter>Source\ArmyAttackDemo</Filter>
+		</ClInclude >
+		<Filter Include="Source\ArmyAttackDemo\Resources">
+			<UniqueIdentifier>{2BA01908-CE55-411B-83BE-D84D0C9DCCA7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\ArmyAttackDemo\Resources\Windows">
+			<UniqueIdentifier>{0F403215-97DD-41F4-9A77-E5D8F4955A90}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\ArmyAttackDemo\Resources\Windows\ArmyAttackDemo.rc">
+			<Filter>Source\ArmyAttackDemo\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

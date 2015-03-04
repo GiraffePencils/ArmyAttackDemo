@@ -1,0 +1,1029 @@
+﻿Log file open, 03/04/15 21:07:49
+LogInit:Display: Running engine for game: ArmyAttackDemo
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.04-21.07.49:627][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.04-21.07.49:692][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.04-21.07.49:717][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.04-21.07.49:723][  0]LogInit: Object subsystem initialized
+[2015.03.04-21.07.49:729][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.04-21.07.49:729][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.04-21.07.49:734][  0]LogInit: Computer: CRACKHOUSE
+[2015.03.04-21.07.49:734][  0]LogInit: User: Dean
+[2015.03.04-21.07.49:734][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.04-21.07.49:734][  0]LogInit: High frequency timer resolution =3.906248 MHz
+[2015.03.04-21.07.49:735][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2015.03.04-21.07.49:735][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.04-21.07.49:735][  0]LogMemory: Process Physical Memory: 48.48 MB used, 48.48 MB peak
+[2015.03.04-21.07.49:735][  0]LogMemory: Process Virtual Memory: 27.00 MB used, 27.01 MB peak
+[2015.03.04-21.07.49:735][  0]LogMemory: Physical Memory: 3483.57 MB used, 6004.27 MB total
+[2015.03.04-21.07.49:735][  0]LogMemory: Virtual Memory: 293.60 MB used, 134217728.00 MB total
+[2015.03.04-21.07.49:758][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.03.04-21.07.49:758][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 2816MB of shared system memory, 2 output[s]
+[2015.03.04-21.07.49:767][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.03.04-21.07.49:767][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.03.04-21.07.49:769][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.04-21.07.49:769][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.04-21.07.49:769][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.04-21.07.49:775][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.04-21.07.49:784][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.03.04-21.07.49:930][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.04-21.07.50:028][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.04-21.07.52:353][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.04-21.07.53:322][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.04-21.07.53:415][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.04-21.07.53:452][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Dean/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.04-21.07.53:452][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dean/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.04-21.07.53:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file K:/Documents/Unreal Projects/ArmyAttackDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.04-21.07.53:452][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.04-21.07.53:533][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.04-21.07.53:546][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.04-21.07.53:823][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.04-21.07.53:823][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.04-21.07.54:225][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.04-21.07.54:370][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.04-21.07.55:440][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.04-21.07.55:934][  0]SourceControl: Info Source control is disabled
+[2015.03.04-21.07.55:934][  0]SourceControl: Info Source control is disabled
+[2015.03.04-21.07.55:934][  0]SourceControl: Info Source control is disabled
+[2015.03.04-21.07.55:934][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.07.55:934][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.07.55:952][  0]SourceControl: Info Source control is disabled
+[2015.03.04-21.07.56:285][  0]LogObj: 26057 objects as part of root set at end of initial load.
+[2015.03.04-21.07.56:285][  0]LogUObjectAllocator: 5799000 out of 0 bytes used by permanent object pool.
+[2015.03.04-21.07.56:408][  0]LogEngine: Initializing Engine...
+[2015.03.04-21.07.59:549][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.04-21.07.59:557][  0]LogInit: FAudioDevice initialized.
+[2015.03.04-21.07.59:626][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.04-21.07.59:646][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB C:/Users/Dean/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.04-21.07.59:649][  0]LogInit: Texture streaming: Enabled
+[2015.03.04-21.07.59:772][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.04-21.07.59:772][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.04-21.07.59:772][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.04-21.07.59:773][  0]LogAnalytics: SetUserId eec80ca545dabc797e0e7dbbe06fb49b|5e1090ab99c14aec8ec4c8ebeeea47df|6c6fae48-0a11-4749-9c00-8531a2c1d5f9
+[2015.03.04-21.07.59:773][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.04-21.07.59:835][  0]LogInit: Transaction tracking system initialized
+[2015.03.04-21.08.00:188][  0]BlueprintLog: New page: Editor Load
+[2015.03.04-21.08.00:253][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.03.04-21.08.00:253][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.04-21.08.01:531][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.04-21.08.02:285][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.04-21.08.05:351][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.04-21.08.05:352][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.04-21.08.05:364][  0]LogConsoleResponse:Display: 
+[2015.03.04-21.08.05:513][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.04-21.08.05:776][  0]SourceControl: Info Source control is disabled
+[2015.03.04-21.08.05:776][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.04-21.08.05:777][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.03.04-21.08.05:777][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.03.04-21.08.07:599][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.03.04-21.08.07:601][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.03.04-21.08.07:603][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.03.04-21.08.07:606][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.03.04-21.08.07:610][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.03.04-21.08.07:612][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.03.04-21.08.07:617][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.03.04-21.08.07:619][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.03.04-21.08.07:621][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.03.04-21.08.07:624][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.03.04-21.08.07:626][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.03.04-21.08.07:628][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.03.04-21.08.07:629][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.03.04-21.08.07:630][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Collapse01.uasset
+[2015.03.04-21.08.07:632][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Collapse02.uasset
+[2015.03.04-21.08.07:633][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.03.04-21.08.07:633][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Explosion01.uasset
+[2015.03.04-21.08.07:634][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Explosion02.uasset
+[2015.03.04-21.08.07:635][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.03.04-21.08.07:637][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Fire01.uasset
+[2015.03.04-21.08.07:638][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.03.04-21.08.07:639][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.03.04-21.08.07:641][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.03.04-21.08.07:642][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Light01.uasset
+[2015.03.04-21.08.07:643][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.03.04-21.08.07:645][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Light02.uasset
+[2015.03.04-21.08.07:646][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.03.04-21.08.07:647][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Smoke01.uasset
+[2015.03.04-21.08.07:648][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.03.04-21.08.07:649][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.03.04-21.08.07:650][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.03.04-21.08.07:653][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.03.04-21.08.07:661][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.03.04-21.08.07:662][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.03.04-21.08.07:665][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.03.04-21.08.07:668][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Steam01.uasset
+[2015.03.04-21.08.07:671][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.03.04-21.08.07:672][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.03.04-21.08.07:673][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.03.04-21.08.07:674][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.03.04-21.08.07:675][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.03.04-21.08.07:677][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.03.04-21.08.07:678][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.03.04-21.08.07:679][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.03.04-21.08.07:681][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.03.04-21.08.07:682][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.03.04-21.08.07:682][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.03.04-21.08.07:683][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.03.04-21.08.07:684][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.03.04-21.08.07:686][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.03.04-21.08.07:687][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.03.04-21.08.07:688][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.03.04-21.08.07:688][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.03.04-21.08.07:689][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.03.04-21.08.07:745][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.03.04-21.08.07:746][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.03.04-21.08.07:748][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Maps/StarterMap.umap
+[2015.03.04-21.08.07:759][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.03.04-21.08.07:761][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.03.04-21.08.07:762][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.03.04-21.08.07:763][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.03.04-21.08.07:763][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.03.04-21.08.07:764][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.03.04-21.08.07:766][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.03.04-21.08.07:767][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.03.04-21.08.07:767][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.03.04-21.08.07:768][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.03.04-21.08.07:769][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.03.04-21.08.07:770][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.03.04-21.08.07:771][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.03.04-21.08.07:772][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.03.04-21.08.07:773][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.03.04-21.08.07:774][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.03.04-21.08.07:775][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.03.04-21.08.07:776][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Glass.uasset
+[2015.03.04-21.08.07:776][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.03.04-21.08.07:777][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.03.04-21.08.07:778][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.03.04-21.08.07:779][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.03.04-21.08.07:780][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.03.04-21.08.07:781][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.03.04-21.08.07:782][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.03.04-21.08.07:783][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.03.04-21.08.07:783][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.03.04-21.08.07:784][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.03.04-21.08.07:785][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.03.04-21.08.07:786][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.03.04-21.08.07:787][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.03.04-21.08.07:788][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.03.04-21.08.07:789][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.03.04-21.08.07:790][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.03.04-21.08.07:791][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.03.04-21.08.07:792][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.03.04-21.08.07:793][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.03.04-21.08.07:794][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.03.04-21.08.07:795][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.03.04-21.08.07:795][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.03.04-21.08.07:796][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.03.04-21.08.07:797][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.03.04-21.08.07:798][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.03.04-21.08.07:799][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.03.04-21.08.07:801][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.03.04-21.08.07:803][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.03.04-21.08.07:804][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.03.04-21.08.07:806][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.03.04-21.08.07:807][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.03.04-21.08.07:808][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.03.04-21.08.07:809][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.03.04-21.08.07:810][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.03.04-21.08.07:811][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.03.04-21.08.07:812][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.03.04-21.08.07:813][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.03.04-21.08.07:814][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/P_Fire.uasset
+[2015.03.04-21.08.07:815][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.03.04-21.08.07:816][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.03.04-21.08.07:817][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.03.04-21.08.07:818][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.03.04-21.08.07:830][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.03.04-21.08.07:831][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.03.04-21.08.07:832][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.03.04-21.08.07:834][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.03.04-21.08.07:834][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.03.04-21.08.07:836][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.03.04-21.08.07:837][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.03.04-21.08.07:838][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.03.04-21.08.07:838][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.03.04-21.08.07:839][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.03.04-21.08.07:840][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.03.04-21.08.07:841][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.03.04-21.08.07:842][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Bush.uasset
+[2015.03.04-21.08.07:843][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Chair.uasset
+[2015.03.04-21.08.07:844][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.03.04-21.08.07:845][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Couch.uasset
+[2015.03.04-21.08.07:846][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Door.uasset
+[2015.03.04-21.08.07:847][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.03.04-21.08.07:848][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.03.04-21.08.07:849][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.03.04-21.08.07:849][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.03.04-21.08.07:850][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.03.04-21.08.07:853][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.03.04-21.08.07:854][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.03.04-21.08.07:854][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Rock.uasset
+[2015.03.04-21.08.07:855][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.03.04-21.08.07:856][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.03.04-21.08.07:857][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_Statue.uasset
+[2015.03.04-21.08.07:858][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.03.04-21.08.07:859][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.03.04-21.08.07:860][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.03.04-21.08.07:861][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.03.04-21.08.07:862][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.03.04-21.08.07:863][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.03.04-21.08.07:864][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.03.04-21.08.07:864][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.03.04-21.08.07:866][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.03.04-21.08.07:867][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.03.04-21.08.07:868][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.03.04-21.08.07:868][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.03.04-21.08.07:869][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.03.04-21.08.07:870][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.03.04-21.08.07:871][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.03.04-21.08.07:872][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.03.04-21.08.07:873][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.03.04-21.08.07:874][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.03.04-21.08.07:875][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.03.04-21.08.07:875][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.03.04-21.08.07:876][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.03.04-21.08.07:877][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.03.04-21.08.07:878][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.03.04-21.08.07:879][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.03.04-21.08.07:880][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.03.04-21.08.07:881][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.03.04-21.08.07:881][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.03.04-21.08.07:883][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.03.04-21.08.07:883][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.03.04-21.08.07:884][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.03.04-21.08.07:885][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.03.04-21.08.07:886][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.03.04-21.08.07:891][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.03.04-21.08.07:903][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.03.04-21.08.07:908][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.03.04-21.08.07:913][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.03.04-21.08.07:919][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.03.04-21.08.07:925][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.03.04-21.08.07:933][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.03.04-21.08.07:939][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.03.04-21.08.07:947][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.03.04-21.08.07:953][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.03.04-21.08.07:962][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.03.04-21.08.07:967][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.03.04-21.08.07:975][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.03.04-21.08.07:976][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.03.04-21.08.07:978][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.03.04-21.08.07:979][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.03.04-21.08.07:980][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.03.04-21.08.07:982][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.03.04-21.08.07:983][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.03.04-21.08.07:986][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.03.04-21.08.07:988][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.03.04-21.08.07:989][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.03.04-21.08.07:990][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.03.04-21.08.07:992][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.03.04-21.08.07:993][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.03.04-21.08.07:994][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.03.04-21.08.07:995][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.03.04-21.08.07:996][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.03.04-21.08.07:997][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.03.04-21.08.08:008][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.03.04-21.08.08:010][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.03.04-21.08.08:019][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.03.04-21.08.08:023][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.03.04-21.08.08:025][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.03.04-21.08.08:031][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.03.04-21.08.08:035][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.03.04-21.08.08:042][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.03.04-21.08.08:043][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.03.04-21.08.08:044][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.03.04-21.08.08:045][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.03.04-21.08.08:046][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.03.04-21.08.08:046][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.03.04-21.08.08:047][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.03.04-21.08.08:048][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.03.04-21.08.08:206][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.03.04-21.08.08:213][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.03.04-21.08.08:278][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.03.04-21.08.08:368][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.03.04-21.08.08:595][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.03.04-21.08.08:745][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.03.04-21.08.08:821][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.03.04-21.08.08:984][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.03.04-21.08.09:060][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.03.04-21.08.09:061][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.03.04-21.08.09:169][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.03.04-21.08.09:170][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.03.04-21.08.09:171][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.03.04-21.08.09:272][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.03.04-21.08.09:297][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.03.04-21.08.09:308][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.03.04-21.08.09:309][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.03.04-21.08.09:311][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.03.04-21.08.09:312][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.03.04-21.08.09:380][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.03.04-21.08.09:381][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.03.04-21.08.09:384][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.03.04-21.08.09:385][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.03.04-21.08.09:426][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.03.04-21.08.09:573][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.03.04-21.08.09:577][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.03.04-21.08.09:580][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.03.04-21.08.09:582][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.03.04-21.08.09:627][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.03.04-21.08.09:628][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.03.04-21.08.09:629][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.03.04-21.08.09:637][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.03.04-21.08.09:638][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.03.04-21.08.09:640][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.03.04-21.08.09:648][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.03.04-21.08.09:648][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.03.04-21.08.09:709][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.03.04-21.08.09:710][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.03.04-21.08.09:726][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.03.04-21.08.09:819][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.03.04-21.08.09:822][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.03.04-21.08.09:962][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.03.04-21.08.09:964][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.03.04-21.08.09:970][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.03.04-21.08.10:094][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.03.04-21.08.10:119][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.03.04-21.08.10:272][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.03.04-21.08.10:449][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.03.04-21.08.10:466][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.03.04-21.08.10:475][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.03.04-21.08.10:610][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.03.04-21.08.10:611][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.03.04-21.08.10:728][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.03.04-21.08.10:753][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.03.04-21.08.10:898][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.03.04-21.08.11:178][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.03.04-21.08.11:279][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.03.04-21.08.11:312][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.03.04-21.08.11:319][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.03.04-21.08.11:451][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.03.04-21.08.11:452][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.03.04-21.08.11:453][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.03.04-21.08.11:576][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.03.04-21.08.11:631][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.03.04-21.08.11:635][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.03.04-21.08.11:757][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.03.04-21.08.11:760][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.03.04-21.08.11:764][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.03.04-21.08.11:900][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.03.04-21.08.12:007][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.03.04-21.08.12:328][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.03.04-21.08.12:329][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.03.04-21.08.12:377][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.03.04-21.08.12:597][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.03.04-21.08.12:621][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.03.04-21.08.12:626][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.03.04-21.08.12:630][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.03.04-21.08.12:716][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.03.04-21.08.12:848][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.03.04-21.08.12:873][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.03.04-21.08.13:091][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.03.04-21.08.13:094][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.03.04-21.08.13:096][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.03.04-21.08.13:197][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.03.04-21.08.13:202][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.03.04-21.08.13:207][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.03.04-21.08.13:311][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.03.04-21.08.13:425][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.03.04-21.08.13:425][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.03.04-21.08.13:502][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.03.04-21.08.13:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.03.04-21.08.13:535][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.03.04-21.08.13:537][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.03.04-21.08.13:539][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.03.04-21.08.13:695][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.03.04-21.08.13:701][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.03.04-21.08.13:707][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.03.04-21.08.13:711][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.03.04-21.08.13:802][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.03.04-21.08.13:816][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.03.04-21.08.13:819][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.03.04-21.08.13:947][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.03.04-21.08.14:067][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.03.04-21.08.14:141][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.03.04-21.08.14:276][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.03.04-21.08.14:285][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.03.04-21.08.14:295][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.03.04-21.08.14:384][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.03.04-21.08.14:603][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.03.04-21.08.14:705][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.03.04-21.08.14:774][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.03.04-21.08.14:919][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.03.04-21.08.15:006][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.03.04-21.08.15:013][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.03.04-21.08.15:124][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.03.04-21.08.15:129][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.03.04-21.08.15:261][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.03.04-21.08.15:367][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.03.04-21.08.15:369][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.03.04-21.08.15:471][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.03.04-21.08.15:641][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.03.04-21.08.15:646][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.03.04-21.08.15:700][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.03.04-21.08.15:727][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.03.04-21.08.15:942][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.03.04-21.08.15:961][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.03.04-21.08.15:965][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.03.04-21.08.15:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.03.04-21.08.15:978][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.03.04-21.08.15:983][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.03.04-21.08.15:990][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.03.04-21.08.15:997][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.03.04-21.08.15:999][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.03.04-21.08.16:001][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.03.04-21.08.16:003][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.03.04-21.08.16:005][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.03.04-21.08.16:009][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.03.04-21.08.16:013][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.03.04-21.08.16:015][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.03.04-21.08.16:017][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.03.04-21.08.16:019][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.03.04-21.08.16:021][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.03.04-21.08.16:023][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.03.04-21.08.16:028][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.03.04-21.08.16:031][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.03.04-21.08.16:034][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.03.04-21.08.16:039][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.03.04-21.08.16:074][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.03.04-21.08.16:080][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.03.04-21.08.16:084][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.03.04-21.08.16:089][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.03.04-21.08.16:092][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.03.04-21.08.16:097][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2015.03.04-21.08.16:129][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2015.03.04-21.08.16:132][  0]LogStaticMesh: Built static mesh [4.068610ms] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2015.03.04-21.08.16:298][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.03.04-21.08.16:372][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2015.03.04-21.08.16:614][  0]LogSavePackage: Save=234.939514ms
+[2015.03.04-21.08.16:614][  0]LogSavePackage: Moving 'K:/Documents/Unreal Projects/ArmyAttackDemo/Saved/Floor_400x400346B5CAB4025E5A0017CACAD64D99D78.tmp' to 'K:/Documents/Unreal Projects/ArmyAttackDemo/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.03.04-21.08.16:620][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.03.04-21.08.16:621][  0]Cmd: MAP LOAD FILE="K:/Documents/Unreal Projects/ArmyAttackDemo/Content/TopDown/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.04-21.08.16:633][  0]LightingResults: New page: Lighting Build
+[2015.03.04-21.08.16:655][  0]MapCheck: New page: Map Check
+[2015.03.04-21.08.16:655][  0]LightingResults: New page: Lighting Build
+[2015.03.04-21.08.16:663][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE5BDB060
+[2015.03.04-21.08.17:479][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.04-21.08.18:083][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.04-21.08.18:794][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.04-21.08.19:350][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.03.04-21.08.19:851][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.04-21.08.19:962][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.04-21.08.21:552][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.04-21.08.21:702][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.04-21.08.21:872][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.04-21.08.22:037][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.03.04-21.08.22:167][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.04-21.08.22:270][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.04-21.08.22:991][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.03.04-21.08.23:346][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.03.04-21.08.23:446][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.03.04-21.08.23:535][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.03.04-21.08.23:623][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.04-21.08.23:697][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.04-21.08.23:714][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.04-21.08.23:773][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.04-21.08.23:782][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.04-21.08.23:784][  0]Cmd: MAP CHECKDEP
+[2015.03.04-21.08.23:784][  0]MapCheck: New page: TopDownExampleMap - 4 Mar 2015 21:08:23
+[2015.03.04-21.08.23:947][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 162.993ms to complete.
+[2015.03.04-21.08.23:947][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 7.326
+[2015.03.04-21.08.24:275][  0]LogCollectionManager: Loaded 0 collections in 0.002248 seconds
+[2015.03.04-21.08.24:302][  0]LogContentBrowser: Native class hierarchy populated in 0.0228 seconds. Added 1699 classes and 263 folders.
+[2015.03.04-21.08.24:537][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0093 seconds. Added 1 classes and 2 folders.
+[2015.03.04-21.08.24:694][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.04-21.08.24:700][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.04-21.08.24:746][  0]LogLoad: Full Startup: 37.48 seconds (BP compile: 0.16 seconds)
+[2015.03.04-21.08.24:783][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDown'
+[2015.03.04-21.08.24:976][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.03.04-21.08.25:255][  2]LogAssetRegistry: Asset discovery search completed in 25.0140 seconds
+[2015.03.04-21.10.39:757][ 97]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2015.03.04-21.10.40:336][124]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.03.04-21.10.41:233][216]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2015.03.04-21.11.32:080][130]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.11.32:082][130]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.11.39:988][ 47]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.03.04-21.16.05:887][680]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.05:888][680]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:262][845]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:263][845]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:762][905]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:763][905]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:795][909]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:796][909]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:828][913]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:829][913]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:862][917]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:862][917]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:895][921]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:896][921]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:928][925]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:929][925]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:962][929]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:962][929]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.07:995][933]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.07:996][933]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:028][937]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:029][937]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:062][941]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:062][941]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:095][945]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:096][945]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:128][949]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:129][949]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:162][953]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:162][953]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:195][957]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:197][957]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:229][961]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:230][961]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:262][965]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:263][965]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:296][969]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:296][969]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:329][973]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:330][973]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:362][977]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:363][977]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:396][981]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:396][981]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:429][985]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:430][985]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:462][989]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:463][989]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:495][993]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:496][993]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:529][997]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:530][997]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:554][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:555][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:587][  4]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:588][  4]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:620][  8]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:621][  8]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:654][ 12]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:654][ 12]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:687][ 16]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:688][ 16]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:720][ 20]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:721][ 20]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.08:729][ 21]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.08:729][ 21]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:228][ 81]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:229][ 81]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:262][ 85]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:264][ 85]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:296][ 89]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:297][ 89]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:329][ 93]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:330][ 93]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:362][ 97]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:363][ 97]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:396][101]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:397][101]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:429][105]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:430][105]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:462][109]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:463][109]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:496][113]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:497][113]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:529][117]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:530][117]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:562][121]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:563][121]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:595][125]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:596][125]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:629][129]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:630][129]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:662][133]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:663][133]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:695][137]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:696][137]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:729][141]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:729][141]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:762][145]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:762][145]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:787][148]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:788][148]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:820][152]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:821][152]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:854][156]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:854][156]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:887][160]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:887][160]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:920][164]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:921][164]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:953][168]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:954][168]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.09:987][172]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.09:987][172]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:020][176]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:021][176]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:053][180]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:054][180]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:087][184]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:087][184]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:120][188]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:120][188]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:153][192]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:154][192]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:187][196]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:187][196]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:220][200]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:221][200]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:253][204]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:254][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:287][208]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:288][208]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:321][212]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:322][212]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:354][216]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:355][216]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:387][220]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:388][220]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:421][224]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:421][224]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.10:670][254]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.10:671][254]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:170][314]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:171][314]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:203][318]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:204][318]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:237][322]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:237][322]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:270][326]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:271][326]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:304][330]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:305][330]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:338][334]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:338][334]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:371][338]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:372][338]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:404][342]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:405][342]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:437][346]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:438][346]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:471][350]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:471][350]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:504][354]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:505][354]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:537][358]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:538][358]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:571][362]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:571][362]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:604][366]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:605][366]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:637][370]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:638][370]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:671][374]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:671][374]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:704][378]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:705][378]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:737][382]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:738][382]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:770][386]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:771][386]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:804][390]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:804][390]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:837][394]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:838][394]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:870][398]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:871][398]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:904][402]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:904][402]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.11:929][405]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:930][405]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.11:962][409]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:963][409]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.11:995][413]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.11:996][413]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:029][417]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:029][417]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:062][421]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:063][421]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:096][425]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:096][425]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:129][429]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:129][429]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:162][433]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:163][433]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:195][437]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:196][437]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:228][441]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:229][441]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:262][445]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:263][445]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:295][449]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:296][449]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:328][453]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:329][453]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:363][457]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:363][457]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:396][461]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:397][461]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:429][465]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:430][465]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:462][469]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:463][469]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:496][473]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:496][473]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:529][477]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:530][477]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:562][481]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:563][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:596][485]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:596][485]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:629][489]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:630][489]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:662][493]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:663][493]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:696][497]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:696][497]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:729][501]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:730][501]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:754][504]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:755][504]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:787][508]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:788][508]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:821][512]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:821][512]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.12:854][516]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:854][516]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:887][520]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:888][520]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:920][524]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:921][524]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:954][528]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:954][528]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.12:987][532]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.12:988][532]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.13:020][536]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.13:021][536]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.13:054][540]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.13:073][540]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.13:088][542]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.13:098][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=87 OutResults=''
+[2015.03.04-21.16.14:425][697]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.14:426][697]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.16:975][  3]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.16:976][  3]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.16:976][  3]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.16:977][  3]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.17:058][ 13]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.03.04-21.16.24:285][844]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.24:286][844]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=5 OutResults=''
+[2015.03.04-21.16.26:009][ 51]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.26:010][ 51]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.26:335][ 90]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.26:336][ 90]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.26:668][130]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.27:001][130]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.03.04-21.16.27:432][182]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.27:433][182]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.27:949][244]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.28:187][244]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.03.04-21.16.28:569][290]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.28:570][290]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.29:361][385]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.29:362][385]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.29:769][434]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.29:770][434]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.30:268][494]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.30:269][494]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.30:670][542]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.30:671][542]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.31:153][600]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.31:154][600]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.31:270][614]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.31:271][614]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.04-21.16.31:662][661]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.31:928][661]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.03.04-21.16.33:592][861]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.33:841][861]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.03.04-21.16.33:841][861]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.04-21.16.34:115][861]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.03.04-21.16.34:122][862]SourceControl:Error: Error You should check out a working copy into your project directory.
+[2015.03.04-21.16.34:122][862]SourceControl:Error: Error Project is not part of a Git working copy.
+[2015.03.04-21.16.49:171][613]SourceControl:Error: Error You should check out a working copy into your project directory.
+[2015.03.04-21.16.49:171][613]SourceControl:Error: Error Project is not part of a Git working copy.
+[2015.03.04-21.16.51:145][813]SourceControl:Error: Error You should check out a working copy into your project directory.
+[2015.03.04-21.16.51:146][813]SourceControl:Error: Error Project is not part of a Git working copy.
+[2015.03.04-21.17.03:997][313]SourceControl: Info Source control is disabled
+[2015.03.04-21.17.23:355][609]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.04-21.17.23:359][609]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.04-21.17.23:362][609]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.04-21.17.33:048][729]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.04-21.17.33:050][729]PIE: New page: PIE session: TopDownExampleMap (4 Mar 2015 21:17:33)
+[2015.03.04-21.17.33:086][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035145s)
+[2015.03.04-21.17.33:088][729]LogPlayLevel: PIE: World Init took: (0.002204s)
+[2015.03.04-21.17.33:088][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDown/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037837s)
+[2015.03.04-21.17.33:144][729]LogWorld: Game class is 'ArmyAttackDemoGameMode'
+[2015.03.04-21.17.33:159][729]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.04-21.17.33:172][729]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.04-21.17.33:172][729]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.04-21.17.33
+[2015.03.04-21.17.33:177][729]LogWorld: Bringing up level for play took: 0.017594
+[2015.03.04-21.17.33:192][729]PIE: Info Play in editor start time for /Game/TopDown/Maps/UEDPIE_0_TopDownExampleMap -0.733
+[2015.03.04-21.17.52:691][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FF38514E0
+[2015.03.04-21.17.56:592][328]LogSavePackage: Save=1161.950806ms
+[2015.03.04-21.17.56:592][328]LogSavePackage: Moving 'K:/Documents/Unreal Projects/ArmyAttackDemo/Saved/TopDownExampleMap823CFE284F7D2FEF396837B5984F48AB.tmp' to 'K:/Documents/Unreal Projects/ArmyAttackDemo/Content/TopDown/Maps/TopDownExampleMap.umap'
+[2015.03.04-21.17.59:113][580]Cmd: QUIT_EDITOR
+[2015.03.04-21.17.59:301][580]LogExit: Preparing to exit.
+[2015.03.04-21.18.00:208][580]LogExit: Editor shut down
+[2015.03.04-21.18.00:216][580]LogExit: Transaction tracking system shut down
+[2015.03.04-21.18.00:219][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE92816C0
+[2015.03.04-21.18.00:221][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005F801822A0
+[2015.03.04-21.18.00:221][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005F9CFACFE0
+[2015.03.04-21.18.00:221][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FEEBD9C60
+[2015.03.04-21.18.00:221][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FEEBD9760
+[2015.03.04-21.18.00:221][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005F96363100
+[2015.03.04-21.18.00:410][580]LogExit: Object subsystem successfully closed.
+[2015.03.04-21.18.00:605][580]LogModuleManager: Shutting down and abandoning module CrashTracker (178)
+[2015.03.04-21.18.00:605][580]LogModuleManager: Shutting down and abandoning module SuperSearch (177)
+[2015.03.04-21.18.00:605][580]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.03.04-21.18.00:605][580]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.03.04-21.18.00:605][580]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.03.04-21.18.00:605][580]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.03.04-21.18.00:606][580]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.03.04-21.18.00:606][580]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.03.04-21.18.00:607][580]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.03.04-21.18.00:608][580]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.03.04-21.18.00:610][580]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.03.04-21.18.00:610][580]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.03.04-21.18.00:611][580]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.03.04-21.18.00:611][580]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.03.04-21.18.00:611][580]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.03.04-21.18.00:612][580]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.03.04-21.18.00:612][580]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.03.04-21.18.00:612][580]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.03.04-21.18.00:612][580]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.03.04-21.18.00:613][580]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.03.04-21.18.00:613][580]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.03.04-21.18.00:613][580]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.03.04-21.18.00:613][580]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.03.04-21.18.00:927][580]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.03.04-21.18.00:927][580]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.03.04-21.18.00:927][580]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.03.04-21.18.00:928][580]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.03.04-21.18.00:929][580]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.03.04-21.18.00:929][580]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.03.04-21.18.00:930][580]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.03.04-21.18.00:930][580]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.03.04-21.18.00:931][580]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.03.04-21.18.00:931][580]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.03.04-21.18.00:932][580]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.03.04-21.18.00:932][580]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.03.04-21.18.00:933][580]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.03.04-21.18.00:934][580]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.03.04-21.18.00:934][580]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.03.04-21.18.00:936][580]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.03.04-21.18.00:936][580]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.03.04-21.18.00:936][580]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.03.04-21.18.00:936][580]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.03.04-21.18.01:076][580]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.03.04-21.18.01:077][580]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.03.04-21.18.01:078][580]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.03.04-21.18.01:082][580]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.03.04-21.18.01:082][580]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.03.04-21.18.01:085][580]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.03.04-21.18.01:085][580]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.03.04-21.18.01:085][580]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.03.04-21.18.01:085][580]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.03.04-21.18.01:086][580]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.03.04-21.18.01:086][580]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.03.04-21.18.01:086][580]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.04-21.18.01:087][580]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.04-21.18.01:253][580]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.04-21.18.01:254][580]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.03.04-21.18.01:254][580]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.03.04-21.18.01:254][580]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.03.04-21.18.01:254][580]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.03.04-21.18.01:254][580]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.03.04-21.18.01:256][580]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.03.04-21.18.01:256][580]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.03.04-21.18.01:256][580]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.03.04-21.18.01:257][580]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.03.04-21.18.01:257][580]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.04-21.18.01:257][580]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.04-21.18.01:257][580]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.03.04-21.18.01:262][580]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.03.04-21.18.01:263][580]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.03.04-21.18.01:263][580]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.03.04-21.18.01:263][580]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.03.04-21.18.01:263][580]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.03.04-21.18.01:264][580]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.03.04-21.18.01:264][580]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.03.04-21.18.01:264][580]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.03.04-21.18.01:264][580]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.03.04-21.18.01:264][580]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.03.04-21.18.01:264][580]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.03.04-21.18.01:265][580]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.03.04-21.18.01:266][580]LogModuleManager: Shutting down and abandoning module ArmyAttackDemo (81)
+[2015.03.04-21.18.01:266][580]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.04-21.18.01:266][580]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.04-21.18.01:367][580]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.04-21.18.01:372][580]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.04-21.18.01:377][580]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.04-21.18.01:377][580]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.04-21.18.01:378][580]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.04-21.18.01:378][580]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.04-21.18.01:378][580]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.04-21.18.01:379][580]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.04-21.18.01:379][580]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.04-21.18.01:380][580]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.04-21.18.01:380][580]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.04-21.18.01:380][580]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.04-21.18.01:381][580]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.04-21.18.01:382][580]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.04-21.18.01:383][580]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.04-21.18.01:383][580]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.04-21.18.01:383][580]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.04-21.18.01:395][580]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.04-21.18.01:396][580]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.04-21.18.01:484][580]LogDerivedDataCache: Shutdown
+[2015.03.04-21.18.01:484][580]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.04-21.18.01:485][580]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.04-21.18.01:485][580]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.04-21.18.01:486][580]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.04-21.18.01:487][580]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.04-21.18.01:487][580]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.04-21.18.01:487][580]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.04-21.18.01:487][580]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.04-21.18.01:488][580]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.04-21.18.01:488][580]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.04-21.18.01:488][580]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.04-21.18.01:488][580]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.04-21.18.01:489][580]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.04-21.18.01:489][580]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.04-21.18.01:489][580]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.04-21.18.01:489][580]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.04-21.18.01:490][580]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.04-21.18.01:490][580]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.04-21.18.01:490][580]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.04-21.18.01:490][580]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.04-21.18.01:490][580]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.04-21.18.01:491][580]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.04-21.18.01:492][580]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.04-21.18.01:492][580]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.04-21.18.01:492][580]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.04-21.18.01:492][580]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.04-21.18.01:492][580]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.04-21.18.01:499][580]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.04-21.18.01:499][580]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.04-21.18.01:499][580]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.04-21.18.01:499][580]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.04-21.18.01:499][580]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.04-21.18.01:499][580]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.04-21.18.01:500][580]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.04-21.18.01:500][580]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.04-21.18.01:500][580]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.04-21.18.01:503][580]LogExit: Exiting.
+[2015.03.04-21.18.01:528][580]Log file closed, 03/04/15 21:18:01
